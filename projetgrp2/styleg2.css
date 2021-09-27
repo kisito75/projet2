@@ -1,0 +1,515 @@
+*{
+    margin: auto ;
+    padding: 0;
+  }
+/*Debut en-tete*/
+ /*header{
+    position:fixed;
+}*/
+.navbar {
+    background-color:navy;
+    height: 70px;
+}
+.menu{
+  margin-left: 30%;
+}
+
+.menu ul li{
+    display: inline-block;
+      }
+
+.menu ul li a {
+    display: block;
+    color:white;
+    margin: 25px 25px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.menu ul li a:hover{
+    background: none;
+    color: #b63109;
+    font-size: 16px;
+}
+.divgris{
+    background-color: rgb(224, 218, 218);
+    height: 25px;
+}
+/*Fin en-tete*/
+/*Premiere section */
+.parti1{
+    padding-top: 20px;
+    background-color:white;
+    padding-bottom: 20px;
+}
+
+.ann p{
+    font-family :algerian;
+    font-size: 20px;
+    text-align: center;
+}
+.toutv p{
+    float: right;
+    margin-top: -25px;
+
+}
+/*bloc des 4 premiers div*/
+.vlmt{
+    margin-top: 30px;
+    display: flex;
+    margin: 20px;
+}
+
+.voiture{
+    position: relative;
+    background-color: white;
+    height: 250px;
+    width: 300px;
+    }
+
+.lit{
+    position: relative;
+    background-color: white;
+    height: 250px;
+    width: 300px;
+    }
+
+.montre{
+        position: relative;
+        background-color: white;
+        height: 250px;
+        width: 300px;
+    }    
+.iphone{
+        position: relative;
+        background-color: white;
+        height: 250px;
+        width: 300px;
+}
+
+.imgvoit{
+    position: relative;
+    height: 211px;
+    width: 300px;
+}
+
+.parag1 p{
+    background-color: rgb(235, 95, 45);
+    width: 83px;
+    float: left;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+}
+.desc1 span{
+    margin-left :15px;
+    font-family: Arial;
+}
+.imglit{
+    position: relative;
+    height: 190px;
+    width: 300px;
+    margin-top:6px;
+    margin-bottom:13px;
+}
+
+.parag2 p{
+    background-color: rgb(235, 95, 45);
+    width: 160px;
+    float: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.desc2 p{
+    margin-left: 40px;
+    font-family: Arial;
+}
+
+.imgmontre{
+    position: relative;
+    height: 180px;
+    width: 150px;
+    margin-top: 7px;
+    margin-bottom: 22px;
+    margin-left: 70px;
+}
+
+.parag3 p{
+    background-color: rgb(235, 95, 45);
+    width: 83px;
+    float: left;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+}
+.desc3 p{
+    text-align: center;
+    font-family: Arial;
+}
+
+.imgiphone{
+    position: relative;
+    height: 211px;
+    width: 200px;
+    margin-left: 80px;
+}
+    
+.parag4 p{
+    background-color: rgb(235, 95, 45);
+    width: 160px;
+    float: left;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+}
+
+.desc4 p{
+    text-align: center;
+    font-family: Arial;
+
+}
+/*Deuxieme section */
+#parti2{ 
+
+    padding-top: 10px;
+    background-color: white;
+    padding-bottom: 20px;
+}
+/*premier bloc*/
+.dive1{ 
+      display: flex;
+      margin-top: 10px;
+      margin-right: 20px;
+      margin-left: 20px;
+}
+
+.offemp{
+    position: relative;
+    background-color: rgb(240, 240, 231);
+    height: 250px;
+    width: 290px;
+}
+.immo{
+    position: relative;
+    background-color: rgb(240, 240, 231);
+    height: 250px;
+    width: 290px;
+}
+.multi{
+    position: relative;
+    background-color: rgb(240, 240, 231);
+    height: 250px;
+    width: 290px;
+}
+.serv{
+    position: relative;
+    background-color: rgb(240, 240, 231);
+    height: 250px;
+    width: 290px;
+}
+.div1sec1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+    
+.div1sec2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(83, 83, 83);
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.div1sec3 a p{
+    margin-top: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    color: rgb(248, 189, 41);
+    
+}
+.div1sec3 a{
+    text-decoration: none;
+}
+
+.div2sec1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+    
+.div2sec2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(83, 83, 83);
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.div2sec3 a p{
+    margin-top: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    color: rgb(248, 189, 41);
+}
+.div2sec3 a{
+    text-decoration: none;
+}
+
+.div3sec1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+    
+.div3sec2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(83, 83, 83);
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.div3sec3 a p{
+    margin-top: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    color: rgb(248, 189, 41);
+}
+.div3sec3 a{
+    text-decoration: none;
+}
+.div4sec1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+    
+.div4sec2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(83, 83, 83);
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.div4sec3 a p{
+    margin-top: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    color: rgb(248, 189, 41);
+}
+.div4sec3 a{
+    text-decoration: none;
+}
+/*deuxieme bloc*/
+.dive2{
+    display: flex;
+    margin-top: 60px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.animo{
+    position: relative;
+    background-color: rgb(240, 240, 231);
+    height: 250px;
+    width: 290px;
+}
+.sploi{
+    position: relative;
+    background-color: rgb(240, 240, 231);
+    height: 250px;
+    width: 290px;
+}
+.modbeau{
+    position: relative;
+    background-color: rgb(240, 240, 231);
+    height: 250px;
+    width: 290px;
+}
+
+.vehi{
+    position: relative;
+    background-color: rgb(240, 240, 231);
+    height: 250px;
+    width: 290px;
+}
+
+.div5sec1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+    
+.div5sec2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(83, 83, 83);
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.div5sec3 a p{
+    margin-top: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    color: rgb(248, 189, 41);
+}
+.div5sec3 a{
+    text-decoration: none;
+}
+
+.div6sec1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+    
+.div6sec2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(83, 83, 83);
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.div6sec3 a p{
+    margin-top: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    color: rgb(248, 189, 41);
+}
+.div6sec3 a{
+    text-decoration: none;
+}
+
+.div7sec1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+    
+.div7sec2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(83, 83, 83);
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.div7sec3 a p{
+    margin-top: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    color: rgb(248, 189, 41);
+}
+.div7sec3 a{
+    text-decoration: none;
+}
+
+.div8sec1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+    
+.div8sec2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(83, 83, 83);
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.div8sec3 a p{
+    margin-top: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    color: rgb(248, 189, 41);
+}
+.div8sec3 a{
+    text-decoration: none;
+}
+/*Troisieme section*/
+#parti3{ 
+    padding-top: 40px;
+    background-color:rgb(236, 233, 233);
+    padding-bottom:40px;
+}
+/*formulaire*/
+table{
+    border: groove;
+    border-radius: 15px;
+    height: 400px;
+    width: 330px;
+    background-color: rgb(127, 176, 231);
+    font-family: Arial, Helvetica, sans-serif;
+}
+table tr td h2{
+    margin-left: 80px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.btnsend{
+    margin-left: 200px;
+    background-color: rgb(9, 23, 223);
+    border-radius: 10px;
+    height: 30px;
+    width: 66px;
+    color: white;
+}
+/*footer*/
+.pieds1{
+    background-color: rgb(3, 72, 136);
+    height: 50px;
+}
+.rs{
+    display: flex;
+    width: 250px;
+}
+.facebook{
+    width: 30px;
+    height: 30px;
+}
+.insta{
+    width: 30px;
+    height: 30px;
+}
+.twitter{
+    width: 30px;
+    height: 30px;
+}
+.linked{
+    width: 50px;
+    height: 50px;
+}
+.pieds2{
+    position: absolute;
+    background-color: rgb(4, 5, 88);
+    height: 90px;
+    width: 100%;
+}
+.cop h2{
+    position: relative;
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.infoline p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    float: right;
+    margin-top: -45px;
+    margin-right: 90px;
+}
